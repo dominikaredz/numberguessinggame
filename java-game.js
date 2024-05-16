@@ -1,15 +1,5 @@
 //ZMIENNE
 
-let Hint1 = "This number is divisible by 2 numbers"
-let Hint2 = "This is a prime number"
-let Hint3 = "This number can be written by a line and a curve"
-let Hint4 = "This is a small number"
-
-let Hint5 = "This number has 2 digits"
-let Hint6 = "This is a large number"
-let Hint7 = "This number is divisible by 4 numbers"
-let Hint8 = "This is an even number"
-
 const Hints = {
     1: ['This is not an even number', 'This number is less than 3', 'This is a very small number', 'This number can be written by a two lines'],
     2: ['This number is divisible by 2 numbers', 'This is a prime number', ' 2 This number can be written by a line and a curve', 'This is a small number', 'This number is less than 3'],
@@ -23,7 +13,7 @@ const Hints = {
     10: ['This number has 2 digits', 'This is a large number', 'This number is divisible by 4 numbers', 'This is an even number'],
 }
 
-const Numbers = [2,10]
+const Numbers = [1,2,3,4,5,6,7,8,9,10]
 
 let usedHints = [];
 
@@ -46,10 +36,13 @@ document.getElementById('startButton').onclick = function() {
 
 yourPoints = 0;
 document.getElementById('pointLabel').innerHTML = yourPoints;
+everyHintsWasUsed = false;
+usedHints = [];
 
 //ZMIANA NA RESET
 
 document.getElementById('startButton').innerHTML = 'Reset game';
+document.getElementById('usedHintInfo').innerHTML = '';
 
 
 //LOSOWANIE NUMERU
