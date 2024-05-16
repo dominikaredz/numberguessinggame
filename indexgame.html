@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number guessing game</title>
+    <link rel="stylesheet" href="./stylegame2.css">
+</head>
+<body>
+    <div id="fullpage">
+        
+        <!-- SEKCJA Z TYTUŁEM I STARTEM -->
+
+        <div id="gametitle">
+
+            <h1>NUMBER GUESSING GAME</h1>
+
+            <p>Pick a number and try to guess it. You will be given one hint to help you solve the puzzle at the start. 
+                Each additional hint costs you one point. The number of hints is limited, but don't worry, you won't lose points for a wrong guess. 
+                You will get 2 points for guessing correctly. Good luck!
+
+            </p>
+
+            <button id="startButton">Start</button>
+
+        </div>
+
+        <!-- SEKCJA Z GRĄ -->
+
+        <div id="thegame">
+
+        <!-- 1.PODPOWIEDŹ -->
+
+            <div id="hintSect">
+                
+                <div>
+                <label id="usedHintInfo"> </label><br><br>
+                <label id="placeOfHint">Start game!</label>
+                </div>
+
+            </div>
+
+        <!-- 2.ZGADYWANIE -->
+
+            <div id="guessSect">
+
+                <h2>TRY YOUR GUESS</h2>
+
+                <div id="buttonAndInputSect">
+
+                    <input id="yourGuessInp">
+                    <div id="buttonsSect">
+                        <button id="submitButton">Submit</button>
+                        <button id="getHintButton">Get another hint</button>
+                    </div>
+
+                </div>
+            </div>
+
+         <!-- 3.PUNKTY -->
+
+            <div id="scoreSect">
+
+                <h2>YOUR SCORE</h2>
+                <div id="pointLabelAndButton">
+                <label id="pointLabel">0</label>
+                <button id="getAnotherNumber">Get anoher number</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="java-game.js"></script>
+</body>
+</html>

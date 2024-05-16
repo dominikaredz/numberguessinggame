@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: "Poppins";
+    background-image: url(bg-image.png);
+    margin: 0;
+    color: #593B1F;
+
+}
+
+#usedHintInfo {
+    font-style: normal !important; 
+    color: #593B1F !important;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+/* MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE  MOBILE   */
+
+
+@media (max-width: 1024px){
+
+    /* FULL PAGE */
+
+    h1 {
+        font-size: 90px;
+        font-weight: 900;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    #fullpage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        width: 450px;
+        margin: 20px;
+        padding: 12px;
+        color: white;
+        background-color: #E17222;
+        border-radius: 50px;
+        border: #E17222;
+        font-size: 35px;
+        font-family: Poppins;
+    }
+
+    button:hover {
+        background-color: #593B1F !important;
+    }
+
+    /* TITLLE & START */
+
+    #gametitle {
+        background-color: rgba(236, 221, 212, 0.6);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        backdrop-filter: blur(5px);
+        width: 70%;
+        margin: 100px;
+    }
+
+    #gametitle p {
+        text-align: left;
+        padding: 30px 50px 20px 50px;
+        font-size: 30px;
+        hyphens: auto;
+    }
+
+    #gametitle h1 {
+        text-align: center;
+        padding: 50px 50px 20px 50px;
+    }
+
+    #gametitle button{
+        width: 400px;
+        margin-bottom: 50px;
+    }
+
+    #gametitle button:hover{
+    background-color: #593B1F;
+    }
+
+
+    /* GAME */
+
+    #thegame {
+        background-color: rgba(236, 221, 212, 0.6);
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        backdrop-filter: blur(5px);
+        width: 550px;
+    }
+
+    /* 1-HINT */
+
+    #hintSect {
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 65px;
+    }
+
+    #hintSect label {
+        font-weight: 900;
+        font-size: 30px;
+        color: #593b1f86;
+        font-style: italic;
+    }
+
+
+    /* 2-GUESS */
+
+    #guessSect {
+        margin: 50px 0 50px 0;
+    }
+
+    #buttonAndInputSect {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #yourGuess {
+        width: 50%;
+        border-radius: 20px;
+        border-color: rgba(240, 255, 255, 0);
+        font-size: 50px;
+        font-family: Poppins;
+        padding: 10px;
+    }
+
+    #submitButton {
+        margin: 0 0px 5px 10px;
+    }
+
+    #getHintButton {
+        margin: 5px 0px 0 10px;
+    }
+
+    #buttonsSect {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* 3-POINT */
+
+    #getAnotherNumber {
+        margin: 15px 0 0 20px;
+        height: 49px;
+    }
+
+    #pointLabelAndButton{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #pointLabel {
+        font-weight: 900;
+        font-size: 48px;
+        padding: 7px 5px 5px 5px;
+    }
+    
+}
+
+/* TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET    */
+/* TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET    */
+/* TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET    */
+/* TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET    */
+/* TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET  TABLET    */
+
+@media (min-width: 1025px) and (max-width: 1439px){
+    
+    /* FULL PAGE */
+
+    h1 {
+        font-size: 70px;
+        font-weight: 900;
+        line-height: 90px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    #fullpage {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button {
+        width: 250px;
+        margin: 20px;
+        padding: 12px;
+        color: white;
+        background-color: #E17222;
+        border-radius: 20px;
+        border: #E17222;
+        font-size: 16px;
+        font-family: Poppins;
+    }
+
+    button:hover {
+        background-color: #593B1F !important;
+    }
+
+    /* TITLLE & START */
+
+    #gametitle {
+        background-color: rgba(236, 221, 212, 0.6);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        backdrop-filter: blur(5px);
+        width: 440px;
+        height: 600px;
+        margin: 0 4% 0 2%;
+        padding: 2%;
+    }
+
+    #gametitle p {
+        text-align: left;
+        padding: 10px 10px 0px 10px;
+    }
+
+    #gametitle h1 {
+        text-align: left;
+        padding: 10px 10px 0px 10px;
+    }
+
+    #gametitle button{
+        width: 200px;
+        margin-top: 40px;
+    }
+
+    /* GAME */
+
+    #thegame {
+        background-color: rgba(236, 221, 212, 0.6);
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        backdrop-filter: blur(5px);
+        width: 440px;
+        height: 600px;
+        margin: 0 2% 0 4%;
+        padding: 2%;
+    }
+
+    /* 1-HINT */
+
+    #hintSect {
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 65px;
+    }
+
+    #hintSect label {
+        font-weight: 900;
+        font-size: 30px;
+        color: #593b1f86;
+        font-style: italic;
+    }
+
+
+    /* 2-GUESS */
+
+    #guessSect {
+        margin: 50px 0 50px 0;
+    }
+
+    #buttonAndInputSect {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #yourGuess {
+        width: 50%;
+        border-radius: 20px;
+        border-color: rgba(240, 255, 255, 0);
+        font-size: 50px;
+        font-family: Poppins;
+        padding: 10px;
+    }
+
+    #submitButton {
+        margin: 0 0px 5px 10px;
+    }
+
+    #getHintButton {
+        margin: 5px 0px 0 10px;
+    }
+
+    #buttonsSect {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    /* 3-POINT */
+
+    #getAnotherNumber {
+        margin: 15px 0 0 20px;
+        height: 49px;
+    }
+
+    #pointLabelAndButton{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #pointLabel {
+        font-weight: 900;
+        font-size: 48px;
+        padding: 7px 5px 5px 5px;
+    }
+}
+
+
+/* DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  */
+/* DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  */
+/* DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  */
+/* DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  */
+/* DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  DESKTOP  */
+
+
+@media (min-width: 1440px){
+
+/* FULL PAGE */
+
+p {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+#fullpage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 350px;
+    margin: 20px;
+    padding: 12px;
+    color: white;
+    background-color: #E17222;
+    border-radius: 20px;
+    border: #E17222;
+    font-size: 16px;
+    font-family: Poppins;
+}
+
+button:hover {
+    background-color: #593B1F !important;
+}
+/* TITLLE & START */
+
+#gametitle {
+    background-color: rgba(236, 221, 212, 0.6);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    width: 600px;
+    margin: 0 4% 0 0;
+    padding: 2%;
+}
+
+#gametitle p {
+    text-align: left;
+    padding: 10px 10px 0px 10px;
+}
+
+#gametitle h1 {
+    text-align: left;
+    padding: 10px 10px 0px 10px;
+}
+
+#gametitle button{
+    width: 200px;
+}
+
+/* GAME */
+
+#thegame {
+    background-color: rgba(236, 221, 212, 0.6);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    width: 600px;
+    margin: 0 0 0 4%;
+    padding: 2%;
+}
+
+
+/* 1-HINT */
+
+#hintSect {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hintSect label {
+    font-weight: 900;
+    font-size: 30px;
+    color: #593b1f86;
+    font-style: italic;
+}
+
+
+/* 2-GUESS */
+
+#guessSect {
+    margin: 50px 0 50px 0;
+}
+
+#buttonAndInputSect {
+    display: flex;
+    justify-content: space-between;
+}
+
+#yourGuess {
+    width: 50%;
+    border-radius: 20px;
+    border-color: rgba(240, 255, 255, 0);
+    font-size: 50px;
+    font-family: Poppins;
+    padding: 10px;
+}
+
+#submitButton {
+    margin: 0 0px 5px 10px;
+}
+
+#getHintButton {
+    margin: 5px 0px 0 10px;
+}
+
+#buttonsSect {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 3-POINT */
+
+#getAnotherNumber {
+    margin: 15px 0 0 20px;
+    height: 49px;
+}
+
+#pointLabelAndButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pointLabel {
+    font-weight: 900;
+    font-size: 48px;
+    padding: 7px 5px 5px 5px;
+}
+
+}
